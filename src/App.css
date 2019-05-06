@@ -1,33 +1,57 @@
-.App {
+body {
+  background-color: lightgray;
   text-align: center;
+  font-family: "Roboto", serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  width: 100%;
+  border: 1px solid black;
+  margin: -15px 0 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  text-align: left;
+}
+
+form {
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
+  align-self: center;
+  padding: 25px;
+  margin: 20px auto auto;
+  text-align: center;
+  align-items: stretch;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  max-width: 50vw;
+}
+
+.input {
+  display: flex;
+  text-align: left;
+  padding: 10px;
+  font-size: medium;
+  margin-top: 25px;
+  border: 2px solid black;
+}
+
+.label {
+  border: none;
+}
+
+.checkbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  box-shadow: 5px 5px black;
+  align-self: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:active {
+  transform: translateY(4px);
 }
