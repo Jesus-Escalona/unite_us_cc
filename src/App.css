@@ -49,3 +49,12 @@ form {
 .button:active {
   transform: translateY(4px);
 }
+
+.error {
+  border: 2px solid darkred;
+}
+
+.required {
+  color: darkred;
+  align-self: flex-end;
+}

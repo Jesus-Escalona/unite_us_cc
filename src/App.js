@@ -7,10 +7,14 @@ import {getData} from "./Adapter";
 // Using React Hooks
 function App() {
 
-    const {inputs: {name, lastName, email, text, check, select}, handleInput, handleSubmit } = useInputs();
+    const {inputs: {name, lastName, email, text, check, select}, errors, handleInput, handleSubmit } = useInputs(postForm);
     const [options, setOptions] = useState([]);
 
-    const callApi = (route) => {
+    function postForm() {
+        console.log('posting')
+    }
+
+    const getServices = (route) => {
         getData.get(route)
             .then(data => {
                 if(data.ok) {
@@ -25,16 +29,20 @@ function App() {
     };
 
     useEffect( () => {
-        callApi('service-types');
+        getServices('service-types');
     }, []);
 
     return (
         <form>
             <h1 className="title">New Assistance Request</h1>
             <hr/>
-            <input className="input" placeholder="First Name" value={name} name="name" onChange={handleInput}/>
-            <input className="input" placeholder="Last Name" value={lastName} name="lastName" onChange={handleInput}/>
-            <input className="input" placeholder="Email Address" value={email} name="email" onChange={handleInput} type="email"/>
+            <input className={`input ${errors.name ? "error" : ""}`} placeholder="First Name" value={name} name="name" onChange={handleInput}/>
+            {errors.name && <label className="required">This field is required</label>}
+            <input className={`input ${errors.lastName ? "error" : ""}`} placeholder="Last Name" value={lastName} name="lastName" onChange={handleInput}/>
+            {errors.lastName && <label className="required">This field is required</label>}
+            <input className={`input ${errors.email ? "error" : ""}`} placeholder="Email Address" value={email} name="email" onChange={handleInput} type="email"/>
+            {errors.email && <label className="required">This field is required</label>}
+            {errors.emailReg && <label className="required">Please type a valid email</label>}
             <select className="input" name="select" value={select} onChange={handleInput} required>
                 <option disabled>Select Service Type</option>
                 {options.length && options.map((service, i) => <option
