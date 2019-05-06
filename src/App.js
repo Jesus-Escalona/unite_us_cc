@@ -1,33 +1,53 @@
-import React, {useState, useEffect} from 'react';
-import './App.css';
+import React, {useEffect, useState} from 'react';
+import {useInputs} from './useInputs'
 
+import './App.css';
+import {getData} from "./Adapter";
+
+// Using React Hooks
 function App() {
 
-    const [name, setName] = useState("");
-    const [lastName, setLastName] = useState("");
-    const [email, setEmail] = useState("");
+    const {inputs: {name, lastName, email, text, check, select}, handleInput, handleSubmit } = useInputs();
+    const [options, setOptions] = useState([]);
 
-    const handleSubmit = () => {};
-    const handleChange = (e) => {
-        `set${e.target.name}`(e.target.value)
+    const callApi = (route) => {
+        getData.get(route)
+            .then(data => {
+                if(data.ok) {
+                    return data.json();
+                } else {
+                    throw data
+                }
+            }).then(services => {
+                setOptions(services.data)
+        })
+            .catch(e => console.log('error', e));
     };
 
+    useEffect( () => {
+        callApi('service-types');
+    }, []);
+
     return (
-        <form className="form">
+        <form>
             <h1 className="title">New Assistance Request</h1>
             <hr/>
-            <input className="input" placeholder="First Name" value={name} onChange={handleChange} name="Name" required/>
-            <input className="input" placeholder="Last Name" value={lastName} name="LastName" required/>
-            <input className="input" placeholder="Email Address" value={email} type="Email" name="email" required/>
-            <select className="input" defaultValue="Select Service Type" required>
-                <option disabled >Select Service Type</option>
+            <input className="input" placeholder="First Name" value={name} name="name" onChange={handleInput}/>
+            <input className="input" placeholder="Last Name" value={lastName} name="lastName" onChange={handleInput}/>
+            <input className="input" placeholder="Email Address" value={email} name="email" onChange={handleInput} type="email"/>
+            <select className="input" name="select" value={select} onChange={handleInput} required>
+                <option disabled>Select Service Type</option>
+                {options.length && options.map((service, i) => <option
+                    key={i}
+                    value={service['display_name']}
+                >{service['display_name']}</option>)}
             </select>
-            <textarea className="input" required />
+            <textarea className="input" value={text} name="text" onChange={handleInput} required />
             <div className="checkbox">
-                <input className="input" type="checkbox" />
-                <label className="input label">I hereby accept the terms of service for THE NETWORK and the privacy policy</label>
+                <input className="input" type="checkbox" name="check" checked={check} onChange={handleInput}/>
+                <label className="input label">I hereby accept the terms of service for THE NETWORK and the privacy policy.</label>
             </div>
-            <button className="input button">Get Assistance</button>
+            <button className="input button" onClick={handleSubmit}>Get Assistance</button>
         </form>
     );
 }
