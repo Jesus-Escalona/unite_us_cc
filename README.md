@@ -4,7 +4,7 @@ This project is a code challenge for Unite Us.
 
 Learn more about the amazing things Unite Us is doing -> [Unite Us](https://www.uniteus.com/)
 #### Preview
-![form](https://gfycat.com/maturebaredobermanpinscher.gif)
+![form](https://thumbs.gfycat.com/MatureBareDobermanpinscher-small.gif)
 
 ### Prerequisites
 
