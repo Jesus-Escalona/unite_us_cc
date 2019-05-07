@@ -1,4 +1,4 @@
-const url = process.env.REACT_APP_BACKEND_URL;
+const url = process.env.REACT_APP_BACKEND_URL || 'http://localhost:49567/api';
 
 class Adapter {
     constructor(url) {
