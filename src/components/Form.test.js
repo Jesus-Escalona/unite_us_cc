@@ -27,13 +27,16 @@ it('should have inputs with className = input', function () {
     });
 });
 
-// it('should have 1st input with no className = error', function () {
+// VERY HARD TO MAKE TESTS WITH REACT HOOKS
+// it('should have 1st input with no className = error',async function  () {
+//
+//     const { waitForNextUpdate, result: { current } } = renderHook(() => useInputs());
 //     let input = form.find('input').at(0);
-//     const mockedEvent = { target: { value: "hi", name: "name"}, persist: () => null };
-//     act(() => {input.simulate('change', mockedEvent)});
-//     form.update();
-//     console.log(input.props());
-//     act(() => {input.simulate('blur', mockedEvent)});
-//     console.log(input.props());
-//     expect(input.hasClass('error')).toEqual(true)
+//     await act(async () => {
+//         input.simulate('blur')
+//         await waitForNextUpdate();
+//     });
+//     console.log(current.errors);
+//     expect(current.errors.name).toEqual(true);
+//
 // });

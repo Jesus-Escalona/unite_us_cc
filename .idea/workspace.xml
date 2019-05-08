@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7436fede-b6ae-4161-86b0-786c41ca414b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/unite_us_cc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/unite_us_cc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/custom_hooks/useInputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom_hooks/useInputs.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="2" />
+            <state relative-caret-position="186">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,20 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Form.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="196">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/custom_hooks/useInputs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-751">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -72,6 +65,7 @@
     <findStrings>
       <find>validate</find>
       <find>text</find>
+      <find>act</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,11 +83,11 @@
         <option value="$PROJECT_DIR$/src/custom_hooks/useSnackbar.js" />
         <option value="$PROJECT_DIR$/src/components/Snackbar.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/custom_hooks/useInputs.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Form.js" />
         <option value="$PROJECT_DIR$/src/Adapter.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/custom_hooks/useInputs.js" />
         <option value="$PROJECT_DIR$/src/components/Form.test.js" />
       </list>
     </option>
@@ -286,44 +280,44 @@
       <option name="presentableId" value="Default" />
       <updated>1557103309069</updated>
       <workItem from="1557103310596" duration="35554000" />
-      <workItem from="1557200774179" duration="12464000" />
+      <workItem from="1557200774179" duration="18928000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 20h 12m 32s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_have_inputs_with_className_=_input - 2019.05.07 at 20h 12m 37s.xml">
-      <configuration name="should have inputs with className = input" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 12m 44s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 03h 55m 43s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 14m 45s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 03h 59m 45s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 15m 29s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 03m 05s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 15m 37s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 07m 37s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 16m 31s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 11m 51s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 16m 52s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 26m 14s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 18m 42s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 32m 47s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 20m 28s.xml">
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 33m 10s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 33m 43s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.08 at 04h 33m 56s.xml">
       <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48018000" />
+    <option name="totallyTimeSpent" value="54482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1028" extended-state="6" />
@@ -343,7 +337,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25810057" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34301677" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -455,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -496,24 +483,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/custom_hooks/useInputs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="354">
+          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-test-renderer/cjs/react-test-renderer.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114082">
+          <caret line="1526" column="155" selection-start-line="1526" selection-start-column="152" selection-end-line="1526" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-test-renderer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        <state relative-caret-position="186">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Form.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="196">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

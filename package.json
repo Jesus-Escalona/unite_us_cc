@@ -5,7 +5,7 @@
   "dependencies": {
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
-    "react": "^16.8.6",
+    "react": "^16.9.0-alpha.0",
     "react-dom": "^16.8.6",
     "react-hooks-testing-library": "^0.5.0",
     "react-scripts": "3.0.0",

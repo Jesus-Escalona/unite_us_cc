@@ -42,6 +42,7 @@ export const useInputs = (callback) => {
                 selected: true
             }));
         } else {
+            console.log(e.target.value)
             setInputs(inputs => ({
                 ...inputs,
                 [e.target.name]: e.target[e.target.name === 'check' ? 'checked' : 'value']
@@ -91,6 +92,7 @@ export const useInputs = (callback) => {
     return {
         inputs,
         errors,
+        setErrors,
         handleInput,
         handleSubmit,
         handleBlur
