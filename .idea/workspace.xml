@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7436fede-b6ae-4161-86b0-786c41ca414b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Form.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/unite_us_cc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/unite_us_cc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1182">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="1" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -42,32 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Form.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../react-boilerplate/app/components/ListItem/tests/index.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="357">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -78,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/custom_hooks/useInputs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="-751">
               <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
@@ -122,6 +97,12 @@
         <option value="$PROJECT_DIR$/src/components/Form.test.js" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
@@ -185,7 +166,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -205,17 +186,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.should have 4 inputs">
-    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.should have 1st input with no className = error">
+    <configuration name="should have 1st input with no className = error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Form.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="should have 1st input with no className = error" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -232,7 +213,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="should have children as inputs" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="should have error class on each children when called without filling it properly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -241,7 +222,20 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/components/Form.test.js" />
       <test-names>
-        <test-name value="should have children as inputs" />
+        <test-name value="should have error class on each children when called without filling it properly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should have inputs with className = input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Form.test.js" />
+      <test-names>
+        <test-name value="should have inputs with className = input" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -271,23 +265,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.should have 1st input with no className = error" />
+        <item itemvalue="Jest.should have inputs with className = input" />
         <item itemvalue="Jest.should have 4 inputs" />
-        <item itemvalue="Jest.should have children as inputs" />
         <item itemvalue="Jest.should render without problems" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="Jest.renders without crashing" />
+        <item itemvalue="Jest.should have error class on each children when called without filling it properly" />
       </list>
     </recent_temporary>
   </component>
@@ -302,44 +286,44 @@
       <option name="presentableId" value="Default" />
       <updated>1557103309069</updated>
       <workItem from="1557103310596" duration="35554000" />
-      <workItem from="1557200774179" duration="3194000" />
+      <workItem from="1557200774179" duration="12464000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="should_render_without_problems - 2019.05.07 at 00h 53m 51s.xml">
-      <configuration name="should render without problems" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_have_children_as_inputs - 2019.05.07 at 01h 01m 16s.xml">
-      <configuration name="should have children as inputs" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 24m 40s.xml">
+    <history-entry file="should_have_4_inputs - 2019.05.07 at 20h 12m 32s.xml">
       <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 25m 03s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_inputs_with_className_=_input - 2019.05.07 at 20h 12m 37s.xml">
+      <configuration name="should have inputs with className = input" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 30m 35s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 12m 44s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 31m 13s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 14m 45s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 31m 29s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 15m 29s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 34m 00s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 15m 37s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 35m 00s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 16m 31s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_have_4_inputs - 2019.05.07 at 01h 35m 09s.xml">
-      <configuration name="should have 4 inputs" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 16m 52s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 18m 42s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_have_1st_input_with_no_className_=_error - 2019.05.07 at 20h 20m 28s.xml">
+      <configuration name="should have 1st input with no className = error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38748000" />
+    <option name="totallyTimeSpent" value="48018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1028" extended-state="6" />
@@ -351,7 +335,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3642458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33631286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,23 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../react-boilerplate/app/components/ListItem/tests/index.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Snackbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -488,17 +455,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/custom_hooks/useInputs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../react-boilerplate/app/components/ListItem/tests/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,27 +489,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/src/components/Snackbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="52" />
+        <state relative-caret-position="126">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/custom_hooks/useInputs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1182">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Form.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="357">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
